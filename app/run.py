@@ -2,6 +2,8 @@ import json
 import plotly
 import pandas as pd
 import pickle
+import nltk
+nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
